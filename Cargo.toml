@@ -36,6 +36,7 @@ members = [
 exclude = [
     # The RAVEDUDE! Yeah!
     "ravedude",
+    "micronucleus-runner"
 ]
 
 [patch.crates-io]

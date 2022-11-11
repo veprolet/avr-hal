@@ -1,0 +1,15 @@
+[package]
+name = "micronucleus-runner"
+version = "0.1.0"
+edition = "2021"
+authors = ["Reinout Heeck <reinz@desk.org>"]
+description =  "A cargo 'runner' for AVR ATtiny boards with the Micronucleus boot loader."
+readme = "README.md"
+repository = "https://github.com/Rahix/avr-hal/tree/main/micronucleus-runner"
+license = "MIT OR Apache-2.0"
+keywords = ["avr", "v-usb", "micronucleus"]
+categories = ["embedded", "hardware-support", "development-tools"]
+
+
+[dependencies]
+clap = { version = "4.0.22", features = ["derive","cargo"] }
