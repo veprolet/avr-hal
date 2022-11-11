@@ -116,3 +116,21 @@ jobs:
         with:
           command: check
           args: --manifest-path ravedude/Cargo.toml
+
+ravedude:
+    name: "micronucleus-runner"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Install Rust
+        uses: actions-rs/toolchain@v1
+        with:
+          profile: minimal
+          toolchain: stable
+          override: true
+      - name: Check micronucleus-runner
+        uses: actions-rs/cargo@v1
+        with:
+          command: check
+          args: --manifest-path micronucleus-runner/Cargo.toml
