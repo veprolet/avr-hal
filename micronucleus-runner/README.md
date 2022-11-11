@@ -1,4 +1,4 @@
-micronucleus-runner
+micronucleus-runner[![crates.io page](https://img.shields.io/crates/v/micronucleus-runner.svg)](https://crates.io/crates/micronucleus-runner)
 ===================
 
 A Cargo helper that streamlines the development experience on AVR ATtiny boards that have a [Micronucleus] 'virtual usb' boot loader.
