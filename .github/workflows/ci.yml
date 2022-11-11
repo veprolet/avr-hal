@@ -117,7 +117,7 @@ jobs:
           command: check
           args: --manifest-path ravedude/Cargo.toml
 
-ravedude:
+micronucleus_runner:
     name: "micronucleus-runner"
     runs-on: ubuntu-latest
     steps:
