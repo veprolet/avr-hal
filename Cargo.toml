@@ -28,10 +28,12 @@ members = [
     "examples/arduino-mega2560",
     "examples/arduino-nano",
     "examples/arduino-uno",
+    "examples/digispark",
     "examples/nano168",
     "examples/sparkfun-promicro",
     "examples/trinket-pro",
     "examples/trinket",
+
 ]
 exclude = [
     # The RAVEDUDE! Yeah!

@@ -15,5 +15,8 @@ cd examples/arduino-uno
 cargo run --bin uno-blink
 ```
 
-You need to install [`ravedude`](https://crates.io/crates/ravedude) with `cargo install ravedude` to make
-this work.
+For most boards you need to install 
+    [`ravedude`](https://crates.io/crates/ravedude) with `cargo install ravedude` to make this work.
+
+Boards that have the Micronucleus 'virtual usb' boot loader require 
+    [`micronucleus-runner`](https://crates.io/crates/micronucleus-runner) instead.
