@@ -37,6 +37,13 @@ Next, install ["ravedude"](./ravedude), a tool which seamlessly integrates flash
 cargo +stable install ravedude
 ```
 
+If your board uses the Micronucleus 'virtual usb' boot loader install [./micronucleus-runner](./micronucleus-runner) for seamless flashing.
+
+```bash
+cargo +stable install micronucleus-runner
+```
+
+
 Go into `./examples/arduino-uno` (or the directory for whatever board you want), and run the following commands:
 
 ```bash
